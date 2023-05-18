@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestNgImplementation.Scenario2">
+        <methods>
+          <include name="Test13_Give_the_Voucher_code_as_12345_and_submit"/>
+          <include name="Test8_validate_that_online_Payment_Selected_ByDefault"/>
+          <include name="Test6_Navigate_to_the_Drinkspage_Add_any_two_drinks_so_that_total_cart_pricing_is_more_than_200"/>
+          <include name="Test11_Enter_name_Mobile_And_Email"/>
+          <include name="Test10_Validate_that_the_I_agree_checkbox_is_checked_by_default"/>
+          <include name="user_launch_pizzahut_application_with"/>
+          <include name="closebrowser"/>
+          <include name="Test1_user_wait_for_auto_location_black_pop_up_screen_and_close_it"/>
+          <include name="Test3_user_is_now_on_deals_page_and_validate_Url_contains_deals"/>
+          <include name="Test2_Set_the_user_delivery_location"/>
+          <include name="Test9_change_payment_option_to_cash"/>
+          <include name="Test12_Click_on_the_Apply_Gift_Card_link_And_popup_Should_Appear"/>
+          <include name="Test7_Click_on_the_Checkout_button"/>
+          <include name="Test4_Go_to_sides_and_add_any_item_that_is_below_200"/>
+          <include name="Test5_Validate_that_the_product_is_added_under_Basket_but_checkout_button_price_item_is_still_not_showing"/>
+        </methods>
+      </class> <!-- TestNgImplementation.Scenario2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

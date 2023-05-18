@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-07T21:26:37 IST" name="Suite" finished-at="2023-05-07T21:27:12 IST" duration-ms="35164">
+    <groups>
+    </groups>
+    <test started-at="2023-05-07T21:26:37 IST" name="Test" finished-at="2023-05-07T21:27:12 IST" duration-ms="35164">
+      <class name="TestNgImplementation.Scenario2">
+        <test-method is-config="true" signature="user_launch_pizzahut_application_with()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:26:37 IST" name="user_launch_pizzahut_application_with" finished-at="2023-05-07T21:26:50 IST" duration-ms="13067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_launch_pizzahut_application_with -->
+        <test-method signature="Test1_user_wait_for_auto_location_black_pop_up_screen_and_close_it()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:26:50 IST" name="Test1_user_wait_for_auto_location_black_pop_up_screen_and_close_it" finished-at="2023-05-07T21:26:50 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1_user_wait_for_auto_location_black_pop_up_screen_and_close_it -->
+        <test-method signature="Test2_Set_the_user_delivery_location()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:26:50 IST" name="Test2_Set_the_user_delivery_location" finished-at="2023-05-07T21:26:52 IST" depends-on-methods="TestNgImplementation.Scenario2.Test1_user_wait_for_auto_location_black_pop_up_screen_and_close_it" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2_Set_the_user_delivery_location -->
+        <test-method signature="Test3_user_is_now_on_deals_page_and_validate_Url_contains_deals()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:26:52 IST" name="Test3_user_is_now_on_deals_page_and_validate_Url_contains_deals" finished-at="2023-05-07T21:26:53 IST" depends-on-methods="TestNgImplementation.Scenario2.Test2_Set_the_user_delivery_location" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3_user_is_now_on_deals_page_and_validate_Url_contains_deals -->
+        <test-method signature="Test4_Go_to_sides_and_add_any_item_that_is_below_200()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:26:53 IST" name="Test4_Go_to_sides_and_add_any_item_that_is_below_200" finished-at="2023-05-07T21:27:01 IST" depends-on-methods="TestNgImplementation.Scenario2.Test3_user_is_now_on_deals_page_and_validate_Url_contains_deals" duration-ms="7720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4_Go_to_sides_and_add_any_item_that_is_below_200 -->
+        <test-method signature="Test5_Validate_that_the_product_is_added_under_Basket_but_checkout_button_price_item_is_still_not_showing()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:27:01 IST" name="Test5_Validate_that_the_product_is_added_under_Basket_but_checkout_button_price_item_is_still_not_showing" finished-at="2023-05-07T21:27:01 IST" depends-on-methods="TestNgImplementation.Scenario2.Test4_Go_to_sides_and_add_any_item_that_is_below_200" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5_Validate_that_the_product_is_added_under_Basket_but_checkout_button_price_item_is_still_not_showing -->
+        <test-method signature="Test6_Navigate_to_the_Drinkspage_Add_any_two_drinks_so_that_total_cart_pricing_is_more_than_200()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:27:01 IST" name="Test6_Navigate_to_the_Drinkspage_Add_any_two_drinks_so_that_total_cart_pricing_is_more_than_200" finished-at="2023-05-07T21:27:04 IST" depends-on-methods="TestNgImplementation.Scenario2.Test5_Validate_that_the_product_is_added_under_Basket_but_checkout_button_price_item_is_still_not_showing" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6_Navigate_to_the_Drinkspage_Add_any_two_drinks_so_that_total_cart_pricing_is_more_than_200 -->
+        <test-method signature="Test7_Click_on_the_Checkout_button()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:27:04 IST" name="Test7_Click_on_the_Checkout_button" finished-at="2023-05-07T21:27:04 IST" depends-on-methods="TestNgImplementation.Scenario2.Test6_Navigate_to_the_Drinkspage_Add_any_two_drinks_so_that_total_cart_pricing_is_more_than_200" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7_Click_on_the_Checkout_button -->
+        <test-method signature="Test8_validate_that_online_Payment_Selected_ByDefault()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:27:04 IST" name="Test8_validate_that_online_Payment_Selected_ByDefault" finished-at="2023-05-07T21:27:06 IST" depends-on-methods="TestNgImplementation.Scenario2.Test7_Click_on_the_Checkout_button" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test8_validate_that_online_Payment_Selected_ByDefault -->
+        <test-method signature="Test9_change_payment_option_to_cash()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:27:06 IST" name="Test9_change_payment_option_to_cash" finished-at="2023-05-07T21:27:06 IST" depends-on-methods="TestNgImplementation.Scenario2.Test8_validate_that_online_Payment_Selected_ByDefault" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test9_change_payment_option_to_cash -->
+        <test-method signature="Test10_Validate_that_the_I_agree_checkbox_is_checked_by_default()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:27:06 IST" name="Test10_Validate_that_the_I_agree_checkbox_is_checked_by_default" finished-at="2023-05-07T21:27:06 IST" depends-on-methods="TestNgImplementation.Scenario2.Test9_change_payment_option_to_cash" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test10_Validate_that_the_I_agree_checkbox_is_checked_by_default -->
+        <test-method signature="Test11_Enter_name_Mobile_And_Email()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:27:06 IST" name="Test11_Enter_name_Mobile_And_Email" finished-at="2023-05-07T21:27:07 IST" depends-on-methods="TestNgImplementation.Scenario2.Test10_Validate_that_the_I_agree_checkbox_is_checked_by_default" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test11_Enter_name_Mobile_And_Email -->
+        <test-method signature="Test12_Click_on_the_Apply_Gift_Card_link_And_popup_Should_Appear()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:27:07 IST" name="Test12_Click_on_the_Apply_Gift_Card_link_And_popup_Should_Appear" finished-at="2023-05-07T21:27:08 IST" depends-on-methods="TestNgImplementation.Scenario2.Test11_Enter_name_Mobile_And_Email" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test12_Click_on_the_Apply_Gift_Card_link_And_popup_Should_Appear -->
+        <test-method signature="Test13_Give_the_Voucher_code_as_12345_and_submit()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:27:08 IST" name="Test13_Give_the_Voucher_code_as_12345_and_submit" finished-at="2023-05-07T21:27:10 IST" depends-on-methods="TestNgImplementation.Scenario2.Test12_Click_on_the_Apply_Gift_Card_link_And_popup_Should_Appear" duration-ms="2228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test13_Give_the_Voucher_code_as_12345_and_submit -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestNgImplementation.Scenario2@45394b31]" started-at="2023-05-07T21:27:10 IST" name="closebrowser" finished-at="2023-05-07T21:27:12 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestNgImplementation.Scenario2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
